@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kweez/static/css/main.0a013637.chunk.css",
+    "main.js": "/kweez/static/js/main.ccefc00d.chunk.js",
+    "main.js.map": "/kweez/static/js/main.ccefc00d.chunk.js.map",
+    "runtime-main.js": "/kweez/static/js/runtime-main.05c60285.js",
+    "runtime-main.js.map": "/kweez/static/js/runtime-main.05c60285.js.map",
+    "static/css/2.9a9a1f6f.chunk.css": "/kweez/static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.4b1f8be8.chunk.js": "/kweez/static/js/2.4b1f8be8.chunk.js",
+    "static/js/2.4b1f8be8.chunk.js.map": "/kweez/static/js/2.4b1f8be8.chunk.js.map",
+    "index.html": "/kweez/index.html",
+    "precache-manifest.b733c9a7dc51c2e3f7a262145ea0b7d4.js": "/kweez/precache-manifest.b733c9a7dc51c2e3f7a262145ea0b7d4.js",
+    "service-worker.js": "/kweez/service-worker.js",
+    "static/css/2.9a9a1f6f.chunk.css.map": "/kweez/static/css/2.9a9a1f6f.chunk.css.map",
+    "static/css/main.0a013637.chunk.css.map": "/kweez/static/css/main.0a013637.chunk.css.map",
+    "static/js/2.4b1f8be8.chunk.js.LICENSE.txt": "/kweez/static/js/2.4b1f8be8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05c60285.js",
+    "static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.4b1f8be8.chunk.js",
+    "static/css/main.0a013637.chunk.css",
+    "static/js/main.ccefc00d.chunk.js"
+  ]
+}
