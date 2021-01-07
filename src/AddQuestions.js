@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import firebase from './firebase'
-import Select from 'react-select'
 import './App.css'
 import CreatedQuiz from './CreatedQuiz'
 
@@ -29,14 +28,10 @@ function AddQuestions(props) {
             options: options,
             correct: correct
         }).then(doc => {
-            console.log('Added data', doc)
-            console.log({addedQuestions})
-            console.log(addedQuestions.map(aq => console.log(aq)))
-            console.log(typeof(addedQuestions.map(aq => console.log(aq))))
+            setNewQuestion('');
+            setOptions(['']);
+            setCorrect('')
         })
-        setNewQuestion('');
-        setOptions(['']);
-        setCorrect('')
     }
 
     useEffect(() => {

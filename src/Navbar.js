@@ -4,8 +4,6 @@ import ListQuizzes from './ListQuizzes'
 import NewQuiz from './NewQuiz'
 import ViewQuiz from './ViewQuiz'
 import AddQuestions from './AddQuestions'
-import Results from './Results'
-import './index'
 import './App.css'
 
 function Navbar() {
@@ -18,8 +16,7 @@ function Navbar() {
                         <a href="/" class="brand-logo left-align">Kweez</a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><a href="/">Take Quiz</a></li>
-                            <li><a href="/newquiz/:id/addquestions">Create Quiz</a></li>
-                            <li><a href="quiz/:id/results">Results</a></li>
+                            <li><a href="/newquiz/">Create Quiz</a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,23 +46,18 @@ function Navbar() {
                             <AddQuestions />
                         </Route>
 
-                        <Route exact path="/results">
-                            <Results />
-                        </Route>
-
                     </Switch>
                 </div>
             </BrowserRouter>
 
         <div className="footer-fixed">
-            <footer className="page-footer teal lighten-3" style={{position:"fixed", bottom: 0, left:0, width:"100%"}}>
+            <footer className="page-footer teal lighten-3" style={{position:"fixed", bottom: 0, left:0, width:"100%"}} >
                 <div className="container center">
                     <div>&copy; 2020 Kweez App</div>
                 </div>
             </footer>
         </div>
         
-
         </div>
     )
 }

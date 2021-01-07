@@ -12,8 +12,7 @@ function NewQuiz(props) {
     // Make states for user's input
     const [title, setTitle] = useState('')
     const [desc, setDesc] = useState('')
-    console.log({title, setTitle})
-    console.log({desc, setDesc})
+
 
     // make function to handle submit form
     const handleFormSubmit = (e) => {
@@ -23,7 +22,6 @@ function NewQuiz(props) {
             description: desc
         }).then(doc => {
             props.history.push(`/newquiz/${doc.id}/addquestions`)
-            console.log('Created quiz id', doc.id)
         })
     }
 
@@ -34,8 +32,7 @@ function NewQuiz(props) {
                 <h5>Description: </h5><textarea maxLength="100" name="description" placeholder="Enter short description for your quiz" onChange={e => setDesc(e.target.value)}></textarea>
                 <button className="btn waves-effect waves-light">Continue to enter questions</button>
             </form> 
-        </div>
-        
+        </div> 
     )
 }
 
