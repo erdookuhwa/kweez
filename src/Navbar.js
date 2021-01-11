@@ -10,6 +10,7 @@ function Navbar() {
 
     return (
         <div>
+            <HashRouter>
             <nav>
                 <div className="nav-wrapper teal">
                     <div className="container red">
@@ -22,7 +23,7 @@ function Navbar() {
                 </div>
             </nav>
 
-            <HashRouter>
+            
                 <div className="app collection center">
                     <Switch>
                         <Route exact path="/">
