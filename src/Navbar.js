@@ -10,7 +10,7 @@ function Navbar() {
 
     return (
         <div>
-            <HashRouter>
+            <HashRouter basename="/">
             <nav>
                 <div className="nav-wrapper teal">
                     <div className="container red">

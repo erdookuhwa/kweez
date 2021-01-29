@@ -61,7 +61,7 @@ function ViewQuiz(props) {
     sum = perc.reduce((cum, curr) => cum+curr.result, 0)
     classAverage = sum / perc.length
     console.log(perc.length)
-    // console.log(`Class average is ${classAverage}`)
+    console.log(`Class average is ${classAverage}`)
 
     // WHEN CALCULATING PERCENTILE, USE <= yourScore... also, include count of # of people with the same scores
     let belowYourScore = perc.filter( (obj) => obj.result <= score )
@@ -102,7 +102,7 @@ function ViewQuiz(props) {
                         <div>Class average score on this quiz is <strong><em>{classAverage}</em></strong></div>
                         <div>You are in the <strong><em>{percentile}th</em></strong> percentile</div>
                         <div>A total number of {perc.length} people have taken this quiz</div>
-                        <div>Add number of people that had the same score as you</div>
+                        <div>Add number of people that had the same score as you <strong>{}</strong> </div>
 
                         <div className="chart">
                             <Chart 
