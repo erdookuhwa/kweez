@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Link, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom'
 import ListQuizzes from './ListQuizzes'
 import NewQuiz from './NewQuiz'
 import ViewQuiz from './ViewQuiz'
@@ -10,14 +10,14 @@ function Navbar() {
 
     return (
         <div>
-            <HashRouter basename="/">
+            <BrowserRouter basename="/">
             <nav>
                 <div className="nav-wrapper teal">
                     <div className="container red">
                         <a href="/" class="brand-logo left-align">Kweez</a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/"> Take Quiz </Link></li>
-                            <li><Link to="/newquiz/">Create Quiz</Link></li>
+                            <li><Link to="/newquiz">Create Quiz</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ function Navbar() {
 
                     </Switch>
                 </div>
-            </HashRouter>
+            </BrowserRouter>
 
         <div className="footer-fixed">
             <footer className="page-footer teal lighten-3" style={{position:"fixed", bottom: 0, left:0, width:"100%"}} >

@@ -50,10 +50,10 @@ function Chart( { score, classAverage, nQuestions } ) {
     return (
         <div className="chart">
             <Bar 
-            data={data}
-            width={100}
-            height={50}
-            options={options}
+                data={data}
+                width={100}
+                height={50}
+                options={options}
             />
         </div>
     )
