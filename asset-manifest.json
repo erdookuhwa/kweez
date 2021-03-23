@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/erdookuhwa/my-quiz.git/static/css/main.0a013637.chunk.css",
-    "main.js": "/erdookuhwa/my-quiz.git/static/js/main.eded9555.chunk.js",
-    "main.js.map": "/erdookuhwa/my-quiz.git/static/js/main.eded9555.chunk.js.map",
-    "runtime-main.js": "/erdookuhwa/my-quiz.git/static/js/runtime-main.f6d77a9c.js",
-    "runtime-main.js.map": "/erdookuhwa/my-quiz.git/static/js/runtime-main.f6d77a9c.js.map",
-    "static/css/2.9a9a1f6f.chunk.css": "/erdookuhwa/my-quiz.git/static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.c0941dd9.chunk.js": "/erdookuhwa/my-quiz.git/static/js/2.c0941dd9.chunk.js",
-    "static/js/2.c0941dd9.chunk.js.map": "/erdookuhwa/my-quiz.git/static/js/2.c0941dd9.chunk.js.map",
-    "index.html": "/erdookuhwa/my-quiz.git/index.html",
-    "precache-manifest.9e2d02e1060714dba067d5db22e2e567.js": "/erdookuhwa/my-quiz.git/precache-manifest.9e2d02e1060714dba067d5db22e2e567.js",
-    "service-worker.js": "/erdookuhwa/my-quiz.git/service-worker.js",
-    "static/css/2.9a9a1f6f.chunk.css.map": "/erdookuhwa/my-quiz.git/static/css/2.9a9a1f6f.chunk.css.map",
-    "static/css/main.0a013637.chunk.css.map": "/erdookuhwa/my-quiz.git/static/css/main.0a013637.chunk.css.map",
-    "static/js/2.c0941dd9.chunk.js.LICENSE.txt": "/erdookuhwa/my-quiz.git/static/js/2.c0941dd9.chunk.js.LICENSE.txt"
+    "main.css": "/erdookuhwa/react-quiz-gh-pages.git/static/css/main.0a013637.chunk.css",
+    "main.js": "/erdookuhwa/react-quiz-gh-pages.git/static/js/main.5ee01484.chunk.js",
+    "main.js.map": "/erdookuhwa/react-quiz-gh-pages.git/static/js/main.5ee01484.chunk.js.map",
+    "runtime-main.js": "/erdookuhwa/react-quiz-gh-pages.git/static/js/runtime-main.976ac1a4.js",
+    "runtime-main.js.map": "/erdookuhwa/react-quiz-gh-pages.git/static/js/runtime-main.976ac1a4.js.map",
+    "static/css/2.9a9a1f6f.chunk.css": "/erdookuhwa/react-quiz-gh-pages.git/static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.84a1adaf.chunk.js": "/erdookuhwa/react-quiz-gh-pages.git/static/js/2.84a1adaf.chunk.js",
+    "static/js/2.84a1adaf.chunk.js.map": "/erdookuhwa/react-quiz-gh-pages.git/static/js/2.84a1adaf.chunk.js.map",
+    "index.html": "/erdookuhwa/react-quiz-gh-pages.git/index.html",
+    "precache-manifest.5b25f328f91df344bca62250f62740ad.js": "/erdookuhwa/react-quiz-gh-pages.git/precache-manifest.5b25f328f91df344bca62250f62740ad.js",
+    "service-worker.js": "/erdookuhwa/react-quiz-gh-pages.git/service-worker.js",
+    "static/css/2.9a9a1f6f.chunk.css.map": "/erdookuhwa/react-quiz-gh-pages.git/static/css/2.9a9a1f6f.chunk.css.map",
+    "static/css/main.0a013637.chunk.css.map": "/erdookuhwa/react-quiz-gh-pages.git/static/css/main.0a013637.chunk.css.map",
+    "static/js/2.84a1adaf.chunk.js.LICENSE.txt": "/erdookuhwa/react-quiz-gh-pages.git/static/js/2.84a1adaf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6d77a9c.js",
+    "static/js/runtime-main.976ac1a4.js",
     "static/css/2.9a9a1f6f.chunk.css",
-    "static/js/2.c0941dd9.chunk.js",
+    "static/js/2.84a1adaf.chunk.js",
     "static/css/main.0a013637.chunk.css",
-    "static/js/main.eded9555.chunk.js"
+    "static/js/main.5ee01484.chunk.js"
   ]
 }
